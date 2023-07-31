@@ -1,0 +1,118 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+/* Task Creation Page styles */
+.task-creation-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.task-creation-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.task-creation-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.task-creation-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Task Listing Page styles */
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task-item .task-title {
+  font-weight: bold;
+}
+
+.task-item .task-status {
+  text-transform: capitalize;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Task Detail styles */
+.task-detail {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.task-detail .task-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.task-detail .task-status {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.task-detail .task-description {
+  margin-bottom: 10px;
+}
+
+.task-detail button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Optional: Styling for selected task in Task Listing */
+.task-item.selected {
+  background-color: #007bff;
+  color: #fff;
+}
